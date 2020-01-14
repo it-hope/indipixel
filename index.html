@@ -1,34 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Mon" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>Hello, World!</title>
   </head>
   <body>
-    <!-- heaeder -->
-    <header>
-      <!-- Logo -->
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">map</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+        <div class="container">
+      <img class="logo" src="Logo.png">
+      <nav class="nav">
+        <div class="nav__item">CONTACT US</div>
     </header>
-    <!-- /header -->
-
-
-    <h1>We work on both design and development</h1>
-    <p>We belive beauty inspires emotions and increase happiness. Our products are well-designed and amplified with better usability. We are specialized in Ios, android, wordpress and drupal</p>
-    <button>Contact US</button>
-
-    <!-- Contact  Form -->
-    <p>Lets Talk</p>
-
-    <p>© 2015 indipixel worldwide</p>
-    <p>contact@yourmail.com</p>
+    <img class="Phone" src="Phone.png">
+    <img class="lines" src="Greenline.png">
+    <div class="Work">
+    <h1>WE WORK ON BOTH<br>
+       DESIGN AND DEVELOPMENT</h1>
+    <p>We belive beauty inspires emotions and increase<br>
+      happiness. Our products are well-designed and amplified <br>
+     with better usability. We are specialized in Ios, android,<br>
+      wordpress and drupal</p>
+    </div>
+      <button><a href="#" class="info__btn">CONTACT US</a></button>
+    <div class="talk">
+     <div class="talk__title"><p>Lets Talk</p></div>
+    <form action="https://echo.htmlacademy.ru/courses" method="get">
+      <input type="text" name="first" size="18" placeholder="First Name">
+      <input type="text" name="last" size="18" placeholder="Last Name"><br>
+      <br>
+      <input type="email" name="email" size="18" placeholder="Email Address">
+      <select name="App">
+        <option value="light">App Design</option>
+        <option value="dark">Mobile Design</option>
+      </select><br>
+      <br>
+      <textarea  rows="3" cols="46" placeholder="Type your query here"></textarea><br>
+      <br>
+      <button class="send"><a href="submit" class="info__btn">SEND</button>
+    </form>
+  </div>
+  <footer>
+  <div class="footer__2015">© 2015 indipixel worldwide</div>
+  <img class="mail" src="Mail.png">
+  <div class="footer__yourmail">contact@yourmail.com</div>
+    </footer>
+  </div>
   </body>
-</html>
+  </html>
